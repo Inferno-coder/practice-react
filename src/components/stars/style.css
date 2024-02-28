@@ -1,0 +1,18 @@
+.stars{
+    height: 80vh;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars-rating{
+    margin: 0 10px;
+}
+
+.active{
+    color: gold;
+}
+.inactive{
+    color: black;
+}
