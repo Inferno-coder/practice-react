@@ -1,0 +1,35 @@
+.loadingText{
+font-size: 30px;
+color: red;
+}
+
+.outer{
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 2px 3px 10px gray;
+}
+
+.up{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img{
+height: 200px;
+width: 200px;
+}
+
+.arrow{
+font-size: 40px;
+}
