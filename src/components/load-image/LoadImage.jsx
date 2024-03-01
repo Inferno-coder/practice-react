@@ -30,6 +30,7 @@ export const LoadImage = ({url,page,limit}) => {
   return (
     <div className='outer'>
     <div className='wrapper'>
+      <div></div>
       <div className="up">
       <BsArrowLeftCircleFill className='arrow arrow-left'/>
       {images && images.length
