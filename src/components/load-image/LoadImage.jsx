@@ -26,7 +26,7 @@ export const LoadImage = ({url,page,limit}) => {
     },[url])
     if(loading)return <h1 className='loadingText'>Please wait ! Images are Loading ......</h1>
    if(err!==null)return <h1 className='error-text'>Error Occurred{err}</h1>
-   console.log(images);
+   //  console.log(images);
   return (
     <div className='outer'>
     <div className='wrapper'>

@@ -1,0 +1,22 @@
+.L-wrapper{
+    height: 100vh;
+    min-width: 100%;
+    margin: 0px;
+    width: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.L-container{
+   
+    display: grid;
+    grid-template-columns: repeat(4, 2fr); /* Three columns with equal width */
+    grid-gap: 40px 100px;
+}
+
+.card{
+    padding: 10px;
+    border: 2px solid green;
+    box-shadow: 2px 3px 10px gray;
+}
