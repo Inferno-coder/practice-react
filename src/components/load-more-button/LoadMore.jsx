@@ -26,7 +26,7 @@ export const LoadMore = ({url}) => {
       <div className="L-container">
         {
              data && data.products &&  data.products.map((item)=>(
-              <div className='card'>
+              <div className='card p-2'>
                 <img src={item.images} alt="" />
                 <p>{item.title}</p>
               </div>
