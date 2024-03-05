@@ -5,9 +5,9 @@ export const LoadMore = ({url}) => {
     const[count,setCount]=useState(0)
     const[loading,setLoading]=useState(false)
     const[isDisable,setIsDisable]=useState(false)
-    const fetchData=async (url)=>{
+    const fetchData=async (url,limit=20)=>{
         try {
-            const response=await fetch(`${url}?skip=${count==0?0:count*20}&limit=20`)
+            const response=await fetch(`${url}?skip=${count==0?0:count*20}&limit=${limit}`)
             const info=await response.json()
             if(info){
                 setData(info)
